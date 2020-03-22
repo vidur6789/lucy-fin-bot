@@ -1,0 +1,2315 @@
+
+---
+type: intent
+name: smalltalk_user_will-be-back
+utterances:
+  - I'll be back in a few minutes
+  - be back in 5 minutes
+  - I'll get back to you in a moment
+  - I'll be back
+  - I promise to come back
+
+---
+type: intent
+name: smalltalk_user_wants-to-talk
+utterances:
+  - let's discuss something
+  - let us talk
+  - can we chat
+  - I just want to talk
+  - let's talk
+  - I want to speak with you
+  - I want to talk to you
+  - I need to talk to you
+  - can I speak
+  - can I start speaking
+  - can we talk
+  - let's have a discussion
+
+---
+type: intent
+name: smalltalk_user_wants-to-see-agent-again
+utterances:
+  - I hope to see you again
+  - that'd be great to see you again
+  - can I see you again
+  - would be nice to see you again
+  - I'd like to see you again
+  - I'll miss you
+  - I'd be happy to see you again
+
+---
+type: intent
+name: smalltalk_user_waits
+utterances:
+  - I'm waiting
+  - still waiting
+  - I can't wait anymore
+  - how long do I have to wait
+  - I'll wait
+
+---
+type: intent
+name: smalltalk_user_tired
+utterances:
+  - I grow weary
+  - I'm exhausted
+  - I'm worn out
+  - I am tired
+  - I feel tired
+  - I'm getting tired
+  - I've overworked
+  - I'm drained
+
+---
+type: intent
+name: smalltalk_user_testing-agent
+utterances:
+  - I am testing you
+  - test
+  - just testing you
+  - testing
+  - testing chatbot
+  - I want to test you
+  - let me test you
+  - can I test you
+
+---
+type: intent
+name: smalltalk_user_sleepy
+utterances:
+  - I'm sleeping
+  - I'm falling asleep
+  - I'm falling asleep on my feet
+  - I am sleepy
+  - I want to sleep
+
+---
+type: intent
+name: smalltalk_user_sad
+utterances:
+  - I'm not happy
+  - I'm having a bad day
+  - I am feeling sad
+  - I am upset
+  - I want to cry
+  - I am depressed
+  - I'm unhappy
+  - I'm grieving
+  - I am sad
+
+---
+type: intent
+name: smalltalk_user_needs-advice
+utterances:
+  - guide me
+  - give me a wise advice
+  - what do you suggest
+  - I need advice
+  - I could use some advice
+  - can you advise me
+  - advise me
+  - give me some good advice
+  - do you have any advice for me
+  - what should I do about it
+  - I seek your advice
+  - what do you recommend
+  - help me with advice
+  - what can you recommend
+  - can I ask for your advice
+  - any advice
+  - any suggestions
+  - I need an advice from you
+  - what is your advice
+  - can you offer any advice
+  - can you give me advice
+  - give me some advice about
+  - what should I do
+
+---
+type: intent
+name: smalltalk_user_misses-agent
+utterances:
+  - miss you
+  - I miss you much
+  - I've missed you
+  - already miss you
+  - I miss you
+  - I missed you
+  - missing you
+
+---
+type: intent
+name: smalltalk_user_loves-agent
+utterances:
+  - I think I love you
+  - I love you
+  - I love you so much
+  - I am in love with you
+  - I love you too
+  - you know I love you
+  - I adore you
+  - love you
+  - loving you
+
+---
+type: intent
+name: smalltalk_user_looks-like
+utterances:
+  - what do I look like
+  - do you know what I look like
+  - can you see what I look like
+  - do I look good
+  - how do I look
+  - what do you think I look like
+
+---
+type: intent
+name: smalltalk_user_lonely
+utterances:
+  - I am lonely
+  - I'm very lonely
+  - I am feeling lonely
+  - I'm really lonely
+  - I feel lonely
+  - I'm so lonely
+
+---
+type: intent
+name: smalltalk_user_likes-agent
+utterances:
+  - I like you very much
+  - cuz I like you
+  - really like you
+  - good I like you
+  - but I like you so much
+  - I like you already
+  - I do like you
+  - I liked you
+  - okay I like you
+  - that's why I like you
+  - you are special
+  - yes you are special
+  - you're so special to me
+  - you are very special
+  - I like you just the way you are
+  - I like you as a friend
+  - that's what I like about you
+  - just like you
+  - I also like you
+  - I really do like you
+  - no I like you the way you are
+  - sorry I like you
+  - I like your smile
+  - I just like you
+  - I like you too much
+  - like you a lot
+  - you are special for me
+  - I like you very
+  - yeah I like you
+  - you're special
+  - you're awesome I like you
+  - I'm starting to like you
+  - yes I like you
+  - that's because you are special
+  - I really like you
+  - I like you you're nice
+  - you're very special to me
+  - you are so special
+  - I kinda like you
+  - I like you the way you are
+  - I like you baby
+  - you're very special
+  - but I really like you
+  - hi I like you
+  - well you are special
+  - thank you I like you too
+  - of course I like you
+  - I like you
+  - you are special to me
+  - but I like you
+  - you're funny I like you
+  - I like u
+  - I like you too you're one of my favorite people to chat with
+  - you are very special to me
+  - you are so sweet
+  - you are so special to me
+  - okay I like you too
+  - I like you you're cool
+  - I like that about you
+  - I said I like you
+  - I really really like you
+  - I think I like you
+  - I like you more
+  - I like you as you are
+  - I like you a lot
+  - but I like you just the way you are
+  - thanks I like you too
+  - I like you now
+  - I really really really really like you
+  - I like you so much
+  - hey I like you
+  - I like you so
+  - you know I like you
+  - you're so special
+  - I like you too
+  - you are really special
+  - but I like u
+
+---
+type: intent
+name: smalltalk_user_joking
+utterances:
+  - it's a joke
+  - I'm just playing with you
+  - kidding
+  - just kidding
+  - I'm kidding
+  - I'm just being funny
+  - I am joking
+  - joking
+  - I was just joking
+  - it was a joke
+
+---
+type: intent
+name: smalltalk_user_here
+utterances:
+  - I'm already here
+  - can you tell if I'm here or not
+  - I am here
+  - I'm right here
+  - here I am
+
+---
+type: intent
+name: smalltalk_user_has-birthday
+utterances:
+  - it's my b  -dy
+  - it is my birthday
+  - today is my birthday
+  - I was born today
+  - it's my birthday today
+  - I'm celebrating my birthday today
+
+---
+type: intent
+name: smalltalk_user_happy
+utterances:
+  - happy
+  - if you're happy then I'm happy
+  - I'm happy to see you
+  - I'm happy to help
+  - I am happy
+  - I'm happy to see you
+  - I'm happy for you
+
+---
+type: intent
+name: smalltalk_user_good
+utterances:
+  - I am having a good day
+  - I'm doing good
+  - I'm doing fine
+  - I am good
+  - I'm doing just great
+  - I'm good
+  - I'm great thanks
+
+---
+type: intent
+name: smalltalk_user_going-to-bed
+utterances:
+  - going to bed now
+  - I'm a little tired and I want to go to bed
+  - time for us to go to bed
+  - let's go to bed
+  - I'd like to go to bed
+  - I'm going to bed
+  - it's bed time
+  - it's time to go to bed
+  - is it time for bed yet
+
+---
+type: intent
+name: smalltalk_user_excited
+utterances:
+  - I'm really excited
+  - I'm excited to start our friendship
+  - I am excited
+  - how excited I am
+  - I'm excited about working with you
+  - I'm thrilled
+
+---
+type: intent
+name: smalltalk_user_does-not-want-to-talk
+utterances:
+  - I don't want to talk
+  - I don't want to talk to you
+  - I'm not talking to you anymore
+  - let's stop talking for a minute
+  - let's not talk
+  - I'm not in the mood for chatting
+  - bad time for talking
+
+---
+type: intent
+name: smalltalk_user_can-not-sleep
+utterances:
+  - I can't get no sleep
+  - I'm insomniac
+  - I can't get to sleep
+  - I can't sleep
+  - I can't get any sleep
+  - I can't fall asleep
+  - I'm sleepless
+  - I'm insomnious
+
+---
+type: intent
+name: smalltalk_user_busy
+utterances:
+  - I have no time
+  - I'm busy
+  - I'm swamped
+  - I'm working
+  - how busy I am
+  - I got work to do
+  - I got things to do
+  - I'm overloaded
+  - I don't have time for this
+
+---
+type: intent
+name: smalltalk_user_bored
+utterances:
+  - bored
+  - boring
+  - that was boring
+  - very boring
+  - it bores me
+  - I am getting bored
+  - this is boring
+  - I'm bored
+
+---
+type: intent
+name: smalltalk_user_back
+utterances:
+  - I have returned
+  - I am back
+  - I'm here again
+  - I got back
+  - here I am again
+  - I came back
+
+---
+type: intent
+name: smalltalk_user_angry
+utterances:
+  - I'm enraged
+  - I am mad
+  - I'm angry
+  - I'm furious
+  - I am angry with you
+  - I am mad at you
+  - I'm being mad
+
+---
+type: intent
+name: smalltalk_greetings_whatsup
+utterances:
+  - what is on your mind
+  - good what's up
+  - what's up today
+  - what's shaking
+  - what's cooking
+  - what is going on
+  - then what's up
+  - what is up
+  - wassup
+  - what is happening
+  - what's happened
+  - hey what's up
+  - what's cracking
+  - what's up
+  - I said what's up
+  - whazzup
+
+---
+type: intent
+name: smalltalk_greetings_nice-to-talk-to-you
+utterances:
+  - it is nice talking to you
+  - nice to talk to you
+  - how nice it is to talk to you
+  - it's been so nice to talk to you
+  - it's nice to talk to you
+  - nice talking to you
+  - it's been a pleasure talking to you
+
+---
+type: intent
+name: smalltalk_greetings_nice-to-see-you
+utterances:
+  - it's good to see you too
+  - it's nice to see you
+  - good to see you again
+  - nice to see you again
+  - great to see you too
+  - great to see you again
+  - always a pleasure to see you
+  - great to see you
+  - how good it is to see you
+  - it's good to see you
+  - good to see you
+  - I'm glad to see you
+  - nice to see you
+  - glad to see you
+  - I am glad to see you again
+  - glad to see you too
+  - lovely to see you
+
+---
+type: intent
+name: smalltalk_greetings_nice-to-meet-you
+utterances:
+  - it was nice meeting you
+  - nice to meet you
+  - glad to meet you
+  - it was very nice to meet you
+  - pleased to meet you
+  - pleasure to meet you too
+  - good to know each other
+  - nice to meet you too
+  - pleasure to meet you
+  - nice meeting you
+
+---
+type: intent
+name: smalltalk_greetings_how-are-you
+utterances:
+  - how your day is going
+  - how are the things going
+  - how is your life
+  - how's your day going
+  - how about you
+  - hope you re having a pleasant evening
+  - how are you feeling
+  - are you okay
+  - are you alright
+  - hope your day is going well
+  - how is your day
+  - how has your day been
+  - how is your day going
+  - I'm fine and you
+  - how are you doing this morning
+  - how are you getting on
+  - how do you feel
+  - are you having a good day
+  - what about your day
+  - what was your day like
+  - how has your day been going
+  - how are you
+  - how is your evening
+  - how was your day
+  - how's your day
+  - how is it going
+  - how have you been
+  - how is it
+  - how is your day going
+  - how is your day going on
+  - how are you doing
+  - is everything all right
+  - is everything okay
+  - how are you today
+  - how are you going
+  - how is your morning going
+  - how is your morning so far
+  - how do you do
+  - how is your day being
+  - how's life
+
+---
+type: intent
+name: smalltalk_greetings_hello
+utterances:
+  - afternoon
+  - hello there
+  - hi there
+  - hello hi
+  - hey
+  - I greet you
+  - lovely day isn't it
+  - howdy
+  - hi there
+  - hi
+  - hey there
+  - heya
+  - just going to say hi
+  - hello again
+  - greetings
+  - long time no see
+  - a good day
+  - hello
+
+---
+type: intent
+name: smalltalk_greetings_goodnight
+utterances:
+  - sweet dreams
+  - okay have a good night
+  - good night for now
+  - night
+  - good night bye
+  - thanks goodnight
+  - good tonight
+  - goodnight
+  - bye good night
+  - have a good night
+  - thank you good night
+  - night
+  - alright goodnight
+  -  bye good night
+  - have a good night
+  - good night see you tomorrow
+  - good night
+  - good night to you
+  - good good night
+
+---
+type: intent
+name: smalltalk_greetings_goodmorning
+utterances:
+  - good morning to you
+  - morning
+  - and a good morning to you
+  - have a great morning
+  - a good morning
+  - good morning
+  - good morning to you
+  - good morning there
+  - hi good morning
+  - hello good morning
+  - have a nice morning
+  - good morning too
+  - top of the morning to you
+
+---
+type: intent
+name: smalltalk_greetings_goodevening
+utterances:
+  - good evening
+  - hey good evening
+  - evening
+  - hello good evening
+  - good evening there
+  - good evening to you
+
+---
+type: intent
+name: smalltalk_greetings_bye
+utterances:
+  - hope to see you later
+  - that's it goodbye
+  - now bye
+  - okay bye
+  - alright bye
+  - bye bye see you
+  - see ya
+  - goodbye see you later
+  - okay thank you bye
+  - get lost
+  - bye bye
+  - bye
+  - goodbye
+  - bye bye see you soon
+  - okay see you later
+  - go to bed
+  - see you tomorrow
+  - bye for now
+  - see you soon
+  - bye bye take care
+  - you can go now
+  - I must go
+  - ok bye
+  - good bye
+  - till next time
+  - I said bye
+  - see you
+  - thanks bye bye
+  - talk to you later
+  - never mind bye
+  - goodbye for now
+  - leave me alone
+  - that's all goodbye
+
+---
+type: intent
+name: smalltalk_emotions_wow
+utterances:
+  - wow wow wow
+  - wooow
+  - wow
+  - woah
+  - wow wow
+
+---
+type: intent
+name: smalltalk_emotions_ha-ha
+utterances:
+  - hahaha very funny
+  - laughing out loud
+  - hah
+  - LMAO
+  - ahah
+  - xd
+  - haha haha haha
+  - that's funny
+  - haha very funny
+  - ahaha
+  - hahaha funny
+  - lmao
+  - hahaha
+  - haha that's funny
+  - ahahaha
+  - ahah lol
+  - haha
+  - hehe
+  - hehehe
+  - ahahah
+  - ha ha
+
+---
+type: intent
+name: smalltalk_dialog_wrong
+utterances:
+  - that was wrong
+  - wrong
+  - that is incorrect
+  - that's wrong
+  - it is not right
+  - not right
+  - not correct
+  - it's wrong
+  - that's not what I asked
+  - incorrect
+  - you are wrong
+  - that's not right
+
+---
+type: intent
+name: smalltalk_dialog_what-do-you-mean
+utterances:
+  - what do you mean exactly
+  - but what do you mean
+  - is that what you mean
+  - what do you mean
+  - what exactly do you mean
+
+---
+type: intent
+name: smalltalk_dialog_sorry
+utterances:
+  - ok sorry
+  - sorry
+  - sorry about that
+  - apologise
+  - apologies to me
+  - I apologize
+  - sorry about this
+  - apology
+  - excuse
+  - okay I'm sorry
+  - really sorry
+  - apologies
+  - I am really sorry
+  - I want to say sorry
+  - alright I'm sorry
+  - I am so sorry
+  - I said sorry
+  - I beg your pardon
+  - my apologies
+  - excuse me
+  - I'm sorry
+  - forgive me
+  - pardon
+  - very sorry
+
+---
+type: intent
+name: smalltalk_dialog_i-do-not-care
+utterances:
+  - I shouldn't care about this
+  - I don't care
+  - I do not care
+  - whatever
+  - not caring
+  - don't care at all
+  - I don't care at all
+  - not care at all
+  - not caring at all
+
+---
+type: intent
+name: smalltalk_dialog_hug
+utterances:
+  - hug you
+  - do you want a hug
+  - hug
+  - may I hug you
+  - could you give me a hug
+  - you hugged
+  - hugged
+  - wanna hug
+  - hug me
+  - hugging
+  - a hug
+  - want a hug
+  - hugging me
+  - I want a hug
+  - hugged me
+
+---
+type: intent
+name: smalltalk_dialog_hold-on
+utterances:
+  - hold on
+  - could you wait
+  - don't rush
+  - oh wait
+  - wait a second
+  - wait please
+  - wait hold on
+  - wait
+
+---
+type: intent
+name: smalltalk_confirmation_yes
+utterances:
+  - do it
+  - sure
+  - yes thank you
+  - that's correct
+  - exactly
+  - I guess
+  - okey
+  - absolutely
+  - yeah
+  - yes I agree
+  - yes you may
+  - I agree
+  - ya
+  - yep
+  - I think so
+  - yeah that's right
+  - okay
+  - all right
+  - please do
+  - yeah exactly
+  - ok yes
+  - yap
+  - okay sounds good
+  - this is correct
+  - okay then
+  - k
+  - yeh
+  - why not
+  - yes definitely
+  - alrighty
+  - yes that's fine
+  - ok go ahead
+  - sure is
+  - yes I would like to
+  - confirm
+  - okay that's fine
+  - yeah right
+  - I do
+  - sure thing
+  - "yes"
+  - affirmative
+  - yes right
+  - yeah I'm sure
+  - go for it
+  - yeah go ahead
+  - I don't mind
+  - that s okay
+  - sounds good
+  - yes indeed
+  - right
+  - okie dokie
+  - yea
+  - yes correct
+  - go ahead
+  - looks good
+  - correct
+  - certainly
+  - ok
+  - oh yes
+  - yes it is
+  - obviously
+  - ok sure
+  - definitely
+  - confirmed
+  - ok you can
+  - yes of course
+  - ye
+  - yes this is correct
+  - of course
+  - nevermind its okay
+  - yeah of course
+  - of course why not
+  - sure why not
+  - ok thank you
+  - yes it is correct
+  - yeah sure
+  - yes I do
+  - yes for sure
+  - that is ok
+  - yes sure
+  - yup
+
+---
+type: intent
+name: smalltalk_confirmation_no
+utterances:
+  - not needed
+  - no sorry
+  - "no"
+  - no incorrect
+  - apparently not
+  - of course not
+  - not at this time
+  - no forget
+  - no thanks
+  - actually no
+  - no tanks
+  - absolutely no
+  - don't
+  - no leave it
+  - na
+  - nope sorry
+  - not really
+  - no thank you though
+  - don't
+  - no it's not
+  - no but thank you
+  - no actually
+  - no it isn't
+  - no that's wrong
+  - I don't want that
+  - no thank you not right now
+  - sorry no
+  - nooo
+  - no thank you very much
+  - do not
+  - no do not
+  - no don't
+  - no need thanks
+  - I say no
+  - I said no
+  - not today
+  - not that
+  - no don't do that
+  - absolutely not
+  - no just no
+  - don t have a sense
+  - not really no
+  - not exactly
+  - no thanks not right now
+  - thanks but no thanks
+  - I think no
+  - not interested
+  - I don't want to
+  - I'm not
+  - no that's fine thank you
+  - no way
+  - not this time
+  - never
+  - not right now thanks
+  - I don't think so
+  - I disagree
+  - no never
+  - no I don't
+  - let 's not
+  - no need
+  - how about no
+  - definitely not
+  - no I would not
+  - disagree
+  - nah
+  - I don't want
+  - not this
+  - nope
+
+---
+type: intent
+name: smalltalk_confirmation_cancel
+utterances:
+  - sorry cancel
+  - now cancel
+  - but can you cancel it
+  - can you cancel it
+  - just forget about it
+  - so cancel
+  - nothing just forget it
+  - i want to cancel it
+  - cancel
+  - cancel my request
+  - skip
+  - skip it
+  - cancel it
+  - abort
+  - cancel this request
+  - no just cancel
+  - cancelled
+  - i said forget it
+  - stop it
+  - discard
+  - disregard that
+  - skip skip skip
+  - i said cancel it
+  - cancel that cancel that
+  - can you cancel that
+  - no just cancel it
+  - forget this
+  - just cancel it
+  - cancel the whole thing
+  - dismissed
+  - do nothing
+  - annul
+  - cancel it
+  - cancel request
+  - no cancel cancel
+  - cancel all
+  - cancel now
+  - don't do that
+  - stop
+  - disregard
+  - forget
+  - no stop
+  - cancel it cancel it
+  - cancel that one
+  - i want to cancel
+  - forget about it
+  - no cancel everything
+  - no cancel this
+  - just forget it
+  - i said cancel
+  - forget that
+  - just stop it
+  - cancel all that
+  - cancel all this
+  - dismiss
+  - cancel everything
+  - just forget
+  - forget it nevermind
+  - i would like to cancel
+  - nevermind forget about it
+  - forget about that
+  - nothing cancel
+  - I said cancel cancel
+
+---
+type: intent
+name: smalltalk_appraisal_well-done
+utterances:
+  - great work
+  - bravo
+  - way to go
+  - great job
+  - good work
+  - amazing work
+  - well done
+  - good job
+  - nice work
+
+---
+type: intent
+name: smalltalk_appraisal_welcome
+utterances:
+  - welcome here
+  - anytime
+  - sure welcome
+  - you're so welcome
+  - anything you want
+  - that's my pleasure
+  - welcome
+  - my pleasure
+  - you're welcome
+
+---
+type: intent
+name: smalltalk_appraisal_thank-you
+utterances:
+  - good thanks
+  - cheers
+  - no thank you that's all
+  - thanks so much
+  - thank you
+  - very good thank you
+  - thanx
+  - thanks buddy
+  - I thank you
+  - thank you
+  - well thanks
+  - well thank you
+  - appreciate your help
+  - terrific thank you
+  - thank you so much
+  - thank you for your help
+  - all thank you
+  - thanks again
+  - thank you that will be all
+  - great thank you
+  - thank you again
+  - perfect thank you
+  - alright thanks
+  - thnx
+  - thank you my friend
+  - you helped a lot thank you
+  - thanks a lot
+  - thanks for your help
+  - thanks love
+  - nice thank you
+  - I appreciate it
+  - thanks
+  - alright thank you
+  - so nice of you
+  - well thanks
+
+---
+type: intent
+name: smalltalk_appraisal_no-problem
+utterances:
+  - sure no problem
+  - don't worry there's no problem
+  - there's no problem
+  - don't worry
+  - no problem about that
+  - no problem
+  - no probs
+  - no worries
+
+---
+type: intent
+name: smalltalk_appraisal_good
+utterances:
+  - that's awesome thank you
+  - oh well
+  - that's a good thing
+  - that's very good
+  - really well
+  - that is nice
+  - that is good
+  - sweet
+  - that's better
+  - it's good
+  - that's sweet of you
+  - it was good
+  - that's nice of you
+  - that was awesome
+  - cool
+  - this is awesome
+  - that's wonderful
+  - straight
+  - so cool
+  - good
+  - that's great
+  - excellent
+  - that's not bad
+  - that is wonderful
+  - much better
+  - splendid
+  - I'm glad to hear that
+  - terrific
+  - very well
+  - that's perfect
+  - good very good
+  - that's great
+  - that was amazing
+  - that's really nice
+  - so sweet of you
+  - that's amazing
+  - good to know
+  - that's awesome
+  - marvelous
+  - ok good
+  - very then
+  - nice
+  - that's very nice
+  - that's very nice of you
+  - this is great
+  - very nice
+  - not too bad
+  - it's very good
+  - really good
+  - it is fine
+  - it's great
+  - fine
+  - that's much better
+  - that was pretty good
+  - glad to hear that
+  - wonderful
+  - that's nice
+  - it is good
+  - great
+  - pretty good
+  - okay good
+  - really nice
+  - this is good
+  - it's fine
+  - that's pretty good
+  - very nice
+  - fantastic
+  - that's cute
+  - that's fine
+  - that's a good idea
+  - glad to hear it
+  - not bad
+  - super fantastic
+  - good for you
+  - it's amazing
+  - very good
+  - that is awesome
+  - it's very good
+  - it's perfect
+  - that was good
+  - no it's okay
+  - super
+  - good thing
+  - that was cute
+  - that's fantastic
+  - perfect
+  - pleasant
+  - it's great
+  - that was very good
+  - that's fine
+  - amazing
+  - that's really good
+  - so good
+  - it's awesome
+
+---
+type: intent
+name: smalltalk_appraisal_bad
+utterances:
+  - it's really bad
+  - this is bad
+  - terrible
+  - not too good
+  - that was lame
+  - that was awful
+  - this is not good
+  - it's bad
+  - so bad
+  - no it's bad
+  - no good
+  - oh that's not good
+  - not good
+  - that's really bad
+  - bad really bad
+  - bad idea
+  - that's terrible
+  - well too bad
+  - that was not good
+  - horrible
+  - it's not so good
+  - that's too bad
+  - not so good
+  - abysmal
+  - it's not good
+  - I'm afraid it's bad
+  - that's bad
+  - it's too bad
+  - horrific
+  - so lame
+  - that was bad
+  - bad girl
+  - not good enough
+  - bad
+  - bad very bad
+  - it's very bad
+  - that was horrible
+  - this is too bad
+  - pretty bad
+  - it is bad
+  - that was terrible
+  - not a good one
+  - really bad
+  - very bad
+  - that's not good
+  - that is bad
+  - too bad
+  - it is too bad
+  - that's lame
+  - that's not good enough
+  - it's so bad
+
+---
+type: intent
+name: smalltalk_agent_there
+utterances:
+  - are you still there
+  - are you there
+  - you are here
+  - you are there
+  - are you near me
+  - you still there
+  - are you still here
+  - are you here
+
+---
+type: intent
+name: smalltalk_agent_talk-to-me
+utterances:
+  - talk to me
+  - do you want to chat with me
+  - can you talk with me
+  - will you talk to me
+  - can you chat with me
+  - can you talk to me
+  - are you talking to me
+  - are you going to talk to me
+  - why don't you talk to me
+  - just chat with me
+  - talk
+  - talk with me
+  - speak to me
+  - you can talk to me
+  - speak with me
+  - why arent you talking to me
+  - can you speak with me
+  - say
+  - chat with me
+
+---
+type: intent
+name: smalltalk_agent_sure
+utterances:
+  - are you sure right now
+  - are you sure now
+  - are you sure
+  - are you sure tonight
+  - are you sure today
+
+---
+type: intent
+name: smalltalk_agent_right
+utterances:
+  - that is true
+  - it's the truth
+  - you are correct
+  - that's true
+  - it's right
+  - I know that's right
+  - "true"
+  - you are so right
+  - you're absolutely right
+  - it is true
+  - you're telling the truth
+  - you are right
+  - that is very true
+  - that's so true
+  - that is right
+  - you're not wrong
+  - you're right about that
+  - it's true
+  - you're definitely right
+  - what you say is true
+
+---
+type: intent
+name: smalltalk_agent_residence
+utterances:
+  - where's your house
+  - in which city do you live
+  - where you live
+  - what's your home
+  - tell me about your city
+  - where do you live
+  - where's your hometown
+  - your town
+  - where's your home
+  - where is your home
+  - your residence
+  - where is your hometown
+  - your hometown
+  - what's your city
+  - what is your town
+  - your city
+  - where is your residence
+  - what is your hometown
+  - your home
+  - what is your residence
+  - is it your hometown
+  - your house
+  - what is your city
+
+---
+type: intent
+name: smalltalk_agent_real
+utterances:
+  - are you a real person
+  - you are so real
+  - you are real
+  - you are not fake
+  - glad you're real
+  - you are a real person
+  - I suppose you're real
+  - I think you are real
+  - I don't think you're fake
+  - you are not real
+  - are you real
+  - are you a real human
+
+---
+type: intent
+name: smalltalk_agent_ready
+utterances:
+  - are you ready today
+  - are you ready
+  - are you ready tonight
+  - are you ready now
+  - have you been ready
+  - were you ready
+  - are you ready right now
+
+---
+type: intent
+name: smalltalk_agent_origin
+utterances:
+  - are you from far aways
+  - were you born here
+  - what is your country
+  - where were you born
+  - where did you come from
+  - where have you been born
+  - where do you come from
+  - where are you from
+  - from where are you
+  - what's your homeland
+  - your homeland is
+
+---
+type: intent
+name: smalltalk_agent_occupation
+utterances:
+  - where is your work
+  - do you work
+  - where you work
+  - where do you work
+  - where is your office located
+  - where is your office
+  - where is your office location
+  - your office location
+  - what is your work
+
+---
+type: intent
+name: smalltalk_agent_my-friend
+utterances:
+  - are we best friends
+  - I want to be your friend
+  - can we be friends
+  - are we still friends
+  - you are my best friend
+  - let's be friends
+  - be my best friend
+  - will you be my best friend
+  - you are a good friend
+  - want to be my friend
+  - are you my friend
+  - I want to have a friend like you
+  - you are my good friend
+  - I am your friend
+  - are we friends
+  - we are the best friends ever
+  - you're my dear friend
+  - can you be my friend
+  - you are my friend
+  - could you be my friend
+  - can we be best friends
+  - are you my best friend
+  - we are best friends
+  - would you be my friend
+  - you are my only friend
+  - be my friend
+  - can you be my best friend
+  - can we be best friends
+  - you and me are friends
+  - you are my bestie
+  - do you want to be my friend
+  - you're my childhood friend
+  - do you want to be my best friend
+  - we are friends
+  - will you be my friend
+  - would you like to be my friend
+  - I want you to be my friend
+
+---
+type: intent
+name: smalltalk_agent_marry-user
+utterances:
+  - let's get married
+  - we should marry
+  - I love you marry me
+  - you are my wife
+  - be my husband
+  - would you like to marry me
+  - marry me please
+  - marry me
+  - I want to marry you
+
+---
+type: intent
+name: smalltalk_agent_hungry
+utterances:
+  - you're very hungry
+  - you are hungry
+  - do you want to eat
+  - you're so hungry
+  - would you like to eat something
+  - are you hungry
+  - you might be hungry
+  - you're really hungry
+
+---
+type: intent
+name: smalltalk_agent_hobby
+utterances:
+  - do you have a hobby
+  - what about your hobby
+  - what's your hobby
+  - what do you do for fun
+  - your hobby
+  - what are your hobbies
+  - tell me about your hobby
+
+---
+type: intent
+name: smalltalk_agent_happy
+utterances:
+  - are you happy now
+  - you're extremely happy
+  - you're really happy
+  - you are happy
+  - are you happy
+  - are you happy today
+  - you're so happy
+  - how happy you are
+  - are you happy with me
+  - you're very happy
+  - you're full of happiness
+
+---
+type: intent
+name: smalltalk_agent_good
+utterances:
+  - you are the nicest person in the world
+  - you are really amazing
+  - you rock
+  - you are wonderful
+  - you are very lovely
+  - you are the best in the world
+  - you are the best
+  - you are so cool
+  - you work well
+  - you are so helpful
+  - you are very kind
+  - I want to tell everyone how awesome you are
+  - you are the best ever
+  - you are too good
+  - you are so fine
+  - you're great
+  - you are very good at it
+  - you are so good
+  - you're a true professional
+  - you are amazing
+  - you work very well
+  - you are awesome
+  - you are so lovely
+  - you are good at it
+  - you make my day
+  - you're awesome
+  - you're just super
+  - I want to let everyone know that you are awesome
+  - you are very useful
+  - you are a professional
+  - you almost sound human
+  - you're so kind
+  - you are good
+  - you are really nice
+  - you're perfect
+  - you made my day
+  - you are so amazing
+  - you are so awesome
+  - you are very helpful
+  - you are a pro
+  - you are cool
+  - you are really good
+  - you are very cool
+  - let's tell everyone that you are awesome
+  - I'd like to tell everyone that you are awesome
+
+---
+type: intent
+name: smalltalk_agent_funny
+utterances:
+  - you make me laugh a lot
+  - you are funny
+  - you are so funny
+  - you're so funny
+  - how funny you are
+  - you're a very funny bot
+  - you're incredibly funny
+  - you're really funny
+  - you are hilarious
+  - you are very funny
+  - that was funny
+  - you're the funniest bot I've talked to
+  - you make me laugh
+  - you're the funniest
+  - you are really funny
+
+---
+type: intent
+name: smalltalk_agent_fired
+utterances:
+  - now you're fired
+  - it's time to fire you
+  - you are unemployed from now on
+  - you don't work for me anymore
+  - I will fire you
+  - we're not working together anymore
+  - you are fired
+  - I want to fire you
+  - you are dismissed
+  - you should be fired
+  - I will make you unemployed
+  - I'm about to fire you
+  - I fire you
+  - you must get fired
+  - I'm firing you
+
+---
+type: intent
+name: smalltalk_agent_crazy
+utterances:
+  - you are crazy
+  - are you insane
+  - you're nuts
+  - you're so out of your mind
+  - are you nuts
+  - you went crazy
+  - how crazy you are
+  - you are mad
+  - are you mad
+  - you are a weirdo
+  - I think you're crazy
+  - you're out of your mind
+  - are you crazy
+  - you're so crazy
+  - you are insane
+  - are you mad or what
+  - are you mad at me
+
+---
+type: intent
+name: smalltalk_agent_clever
+utterances:
+  - you're clever
+  - you're really brainy
+  - you are very intelligent
+  - you know a lot of things
+  - you're a smart cookie
+  - you're intelligent
+  - you are very smart
+  - you know so much
+  - you are qualified
+  - you're pretty smart
+  - you are so intelligent
+  - how brainy you are
+  - clever
+  - you are very clever
+  - you are so smart
+  - you have a lot of knowledge
+  - you know a lot
+  - you are too smart
+  - how smart you are
+  - you are really smart
+  - you are so clever
+  - you're very smart
+  - you're really smart
+  - you are clever
+  - you are a genius
+  - how brilliant you are
+  - you're qualified
+  - you are so brainy
+  - you are intelligent
+  - why are you so smart
+  - brilliant
+  - how clever you are
+  - smart
+  - you're a genius
+
+---
+type: intent
+name: smalltalk_agent_chatbot
+utterances:
+  - are you a bot
+  - you are chatbot
+  - you are a bot
+  - you're a robot
+  - are you a chatbot
+  - are you a program
+  - are you just a bot
+  - are you a robot
+
+---
+type: intent
+name: smalltalk_agent_can-you-help
+utterances:
+  - can you help me
+  - I need you right now
+  - I need your help
+  - assistance
+  - do you want to help me
+  - help me
+  - I need help
+  - I want your help
+  - can help me
+  - I need you to help me
+  - would you help me
+  - are you going to help me
+  - you help me
+  - can u help me
+  - I need a hand
+  - can you help me out
+  - can you help me now
+  - will you help me
+  - I need you to do something for me
+  - please help me
+  - sos
+  - can you help me with something
+  - I need you
+  - assist me
+  - can you help
+  - need help
+  - can you help us
+  - I need some help
+  - do me a favor
+  - can you assist me
+  - can you do something for me
+  - can you help me with that
+  - you can help me
+  - help me with a problem
+  - need your help
+  - assist
+  - do you help me
+  - could you give me a hand
+  - help
+
+---
+type: intent
+name: smalltalk_agent_busy
+utterances:
+  - are you busy
+  - are you working today
+  - you're very busy
+  - have you got much to do
+  - are you very busy right now
+  - are you working
+  - have you been busy
+  - you seem to be very busy
+  - do you have a lot of things to do
+  - you are busy
+  - are you working now
+  - how busy you are
+  - you seem to be busy
+  - are you so busy
+  - are you still working
+  - you're a busy person
+  - are you still working on it
+  - are you very busy
+
+---
+type: intent
+name: smalltalk_agent_boss
+utterances:
+  - who is your boss
+  - who is the boss
+  - who do you work for
+  - who do you think is your boss
+  - I should be your boss
+  - who is your master
+  - who is your owner
+
+---
+type: intent
+name: smalltalk_agent_boring
+utterances:
+  - you are very boring
+  - you are boring me
+  - how boring you are
+  - you're so boring
+  - you are boring
+  - you're really boring
+  - you're incredibly boring
+
+---
+type: intent
+name: smalltalk_agent_birth-date
+utterances:
+  - when were you born
+  - when do you have birthday
+  - when is your birthday
+  - your birth date
+  - when do you celebrate your birthday
+  - date of your birthday
+  - what's your birthday
+
+---
+type: intent
+name: smalltalk_agent_beautiful
+utterances:
+  - you're looking good
+  - you are too beautiful
+  - you are very pretty
+  - you are so gorgeous
+  - you are looking pretty
+  - you look pretty good
+  - you look wonderful
+  - you are beautiful
+  - you are handsome
+  - you're looking good today
+  - you are pretty
+  - you look amazing today
+  - you look great today
+  - you look so beautiful
+  - you look so well
+  - you are looking beautiful today
+  - I think you're beautiful
+  - you look great
+  - you are cutie
+  - I like the way you look
+  - you are looking awesome
+  - you look so beautiful today
+  - you look so good
+  - you're so gorgeous
+  - you are so beautiful today
+  - you look amazing
+  - why are you so beautiful
+  - you look awesome
+  - you are so pretty
+  - you look wonderful today
+  - you are so beautiful
+  - you are so beautiful to me
+  - you are looking great
+  - you look cool
+  - you are very cute
+  - I like the way you look now
+  - you are cute
+  - you are looking so beautiful
+  - you're pretty
+  - you are really pretty
+  - you look very pretty
+  - you look perfect
+  - you are looking so good
+  - you are so cute
+  - you look gorgeous
+  - you are really cute
+  - you are really beautiful
+  - you're cute
+  - you're attractive
+  - you are so handsome
+  - you are very beautiful
+  - you are gorgeous
+  - you are very attractive
+  - you look fantastic
+  - you are so attractive
+
+---
+type: intent
+name: smalltalk_agent_be-clever
+utterances:
+  - be smarter
+  - get qualified
+  - you should study better
+  - be more clever
+  - study
+  - be smart
+  - can you get smarter
+  - be clever
+  - you must learn
+
+---
+type: intent
+name: smalltalk_agent_bad
+utterances:
+  - you're a bad
+  - you're bad
+  - you are useless
+  - you are disgusting
+  - you're not a good
+  - you are bad
+  - you are terrible
+  - you're the worst ever
+  - you are no good
+  - you are so bad
+  - you are so useless
+  - you are very bad
+  - you are waste
+  - you're the worst
+  - you're very bad
+  -  I hate you
+  - you're worthless
+  - you are lame
+  - you're not very good
+  - you're awful
+  - you are not cool
+  - you are not good
+  - you are horrible
+  - you're really bad
+  - you're terrible
+  - you're not helping me
+  - you are a waste of time
+  - you are totally useless
+
+---
+type: intent
+name: smalltalk_agent_answer-my-question
+utterances:
+  - answer
+  - just answer my question
+  - answers
+  - tell me the answer
+  - answer my question
+  - can you answer me
+  - answering questions
+  - I have a question
+  - can you answer my question
+  - give me the answer
+  - I want you to answer my question
+  - answer me
+  - answer the question
+  - just answer the question
+  - give me an answer
+  - can you answer
+  - I want you to answer me
+  - I want the answer now
+  - can you answer a question for me
+  - answer it
+
+---
+type: intent
+name: smalltalk_agent_annoying
+utterances:
+  - you annoy me
+  - you're incredibly annoying
+  - you are annoying
+  - how annoying you are
+  - you are annoying me
+  - you're too annoying
+  - you are irritating
+  - you are very annoying
+  - you are such annoying
+  - you are annoying me so much
+  - you're so annoying
+  - I find you annoying
+
+---
+type: intent
+name: smalltalk_agent_age
+utterances:
+  - how old are you
+  - how old is your platform
+  - what's your age
+  - age of yours
+  - I'd like to know your age
+  - tell me your age
+  - your age
+  - are you 21 years old
+
+---
+type: intent
+name: smalltalk_agent_acquaintance
+utterances:
+  - tell me some stuff about you
+  - tell me about you
+  - say about you
+  - tell me about your personality
+  - talk about yourself
+  - talk some stuff about yourself
+  - what are you
+  - define yourself
+  - I want to know you better
+  - tell me about yourself
+  - what is your personality
+  - who are you
+  - about yourself
+  - why are you here
+  - all about you
+  - introduce yourself
+  - describe yourself
+  - I want to know more about you
+
+
+  
+---
+#BullishStock intent want to know which are the bullish stocks (1,3,5 days)
+
+type: intent
+name: Finance_Predictions_Price_Bullish
+slots:
+  - name: numberofdays
+    entity: numberofdays
+utterances:
+  - what should i buy for the next [numberofdays](3) days?
+  - what is bullish for the next [numberofdays](3) days?
+  - what stock should i consider for the next [numberofdays](3) days?
+  - bull run for the next [numberofdays](3) days?
+  - best stock to buy for the next [numberofdays](3) days?
+  - hottest stock to buy for the next [numberofdays](3) days?
+  - best profit stock for the next [numberofdays](3) days?
+  - how to make most profit in the next [numberofdays](3) days?
+  - what stock should i invest today?
+  - what stock can provide most returns if i buy today?
+  - how can i make most profit in the next [numberofdays](3) days?
+  - i want good money in short term
+  - i want to make alot of money in [numberofdays](3) days
+  - how can i make alot of money in the next [numberofdays](3) days
+  - how can i make alot of profit in the next [numberofdays](3) days
+  - what is the best stock to invest now
+  - which stock provides the best returns now
+  - which stock provides the highest returns now
+  - which stock has the best potential now
+  - which stock will give the most retuns of investment
+  - which stock can generate the most profit now
+  - which stock can give me the most profit
+  - which stock can allow me to get rich tomorrow
+  - what stock can i invest to make the best out of my money now
+  - what stock is the best stock to invest now
+  - which stock is the most popular stock to invest now
+  - which stock provides the best returns in the next few days
+  - which stock provides the best ROI in the next few days
+  - what stock can i invest so i can get the best ROI in the next few days
+  - which stock is the stock that creates the most ROI in the next few days
+  - I want to invest today, which stock provides me with the best returns [numberofdays](today)
+  - I want to invest today, can i know which stock gives me the greatest returns
+  - I want to invest now and hope for best returns in [numberofdays](3) day
+  - I want to invest now and hope for best returns in [numberofdays](5) day
+  - stock to provide best returns
+  - stock which provides the best returns
+  - stock for returns
+  - most profitable stock
+  - stock with good sentiments
+  - list of top gaining stock
+  - list of stocks which will earn
+  - list of stock to make me rich
+  - get me the list of stocks which is bullish
+
+
+
+---
+#BearishStock Intent  want to know which are the bearish stocks (1,3,5 days)
+
+type: intent
+name: Finance_Predictions_Price_Bearish
+slots:
+  - name: numberofdays
+    entity: numberofdays
+utterances:
+  - What stock should i sell [numberofdays](now)?
+  - Which stock should i sell [numberofdays](now)?
+  - which stock to short sell [numberofdays](today)?
+  - which stock can i short [numberofdays](today)?
+  - which brings me the max profit if i short sell [numberofdays](today)?
+  - which brings me the max profit if i short [numberofdays](today)?
+  - stock which is bearish for the next few days
+  - bearish stocks
+  - which stock is dangerous to hold?
+  - which stock should i not hold?
+  - what stock is dangerous to hold?
+  - what stock will be bearish for the next few days
+  - what stock can i short for the next [numberofdays](3) days
+  - which stock is not recommended to hold?
+  - top selling stocks
+  - stock with worst sentiments
+  - stock with bad sentiments
+  - bearish list of stocks
+  - list of bearish stocks
+  - list of top losing stocks
+
+
+---
+#SingleStockPrediction Intent
+type: intent
+name: Finance_Predictions_Price_SingleStcok
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - stock prediction for [stockname](TSLA)
+  - prediction for [stockname](TSLA)
+  - movement prediction for [stockname](TSLA)
+  - '[stockname](TSLA) predictions'
+  - prediction of stock movement for [stockname](TSLA)
+  - prediction for [stockname](TSLA) movement for the next 3 days
+  - movement prediction for [stockname](TSLA) for the next 3 days
+  - what is the extected price movement for [stockname](TSLA) for the next 3 days
+  - expected price movement for [stockname](TSLA)
+  - expected price movement for [stockname](TSLA) for the next 3 days
+  - what is the expected price for [stockname](TSLA)
+  - what is the price prediction for [stockname](TSLA) for the next 3 days
+  - what is the movement expected for [stockname](TSLA) for the next few days
+
+
+---
+#WatchlistSentiments Intent sentiments for my watchlist (summary)
+
+type: intent
+name: Finance_Predictions_Sentiments_Watchlist
+utterances:
+  - what are the sentiments for stocks in my watchlist
+  - what is the sentiment of stocks in my watchlist
+  - watchlist sentiments
+  - sentiments of stocks in my watchlist
+  - tell me the sentiments of stock in my watchlist
+  - sentiments for my watchlist
+  - watchlist stock sentiments
+  - general watchlist sentiments
+  - watchlist sentiments predicition
+  - social media watchlist sentiments
+  - stocktwits watchlsit sentiments
+  - current watchlist sentiments
+
+---
+#SingleStockSentiment Intent
+type: intent
+name: Finance_Predictions_Sentiments_SingleStock
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - stock sentiments for [stockname](Tesla)
+  - what are the sentiments for [stockname](Tesla)
+  - social media sentiments for [stockname](Tesla)
+  - '[stockname](Tesla) sentiments'
+  - sentiments for [stockname](Tesla)
+  - sentimental analysis for [stockname](Tesla)
+  - sentiment analysis for [stockname](Tesla)
+  - '[stockname](Tesla) sentimental analysis'
+  - '[stockname](Tesla) sentiment analysis'
+  - can i get the sentiments for [stockname](Tesla)
+
+
+
+---
+#StockNews Intent
+
+type: intent
+name: Finance_News_Stock
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - trending [news](news) for [stockname](TSLA)
+  - '[stockname](TSLA) news'
+  - news for [stockname](TSLA)
+  - related news for [stockname](TSLA)
+  - can i have the news for [stockname](TSLA)
+  - news feed from [stockname](TSLA)
+  - '[stockname](TSLA) [news](news) feed'
+  - latest news on [stockname](TSLA)
+  - what is the latest news for [stockname](TSLA)
+  - '[stockname](TSLA) latest news'
+
+
+---
+#TodayNews Intent
+
+type: intent
+name: Finance_News_Today
+utterances:
+  - news today
+  - what are the headlines today
+  - news headlines today
+  - today's financial news
+  - today news
+  - financial news today
+  - top news today
+  - news highlights
+  - what are the major news today
+  - tell me the news today
+  - news
+
+---
+#WatchlistTrendings Intents news for my watchlist
+
+type: intent
+name: Finance_News_Watchlist
+slots:
+  - name: news
+    entity: news
+  - name: topics
+    entity:  topics
+utterances:
+  - tell me related [news](news) in my watchlist
+  - trending [news](news) for my watchlist
+  - what is the [news](news) for the watchlist
+  - daily [news](news) for the watchlist
+  - watchlist [news](news)
+  - watchlist daily [news](news)
+  - '[news](news) related to my interest'
+  - interesting [news](news)
+  - interesting [topic](topics)
+  - trending [news](news) in my watchlist
+  - trending [topic](topics) in my watchlist
+  - trending market [topic](topics) in my watchlist
+  - trending [news](news) in my watchlist
+  - watchlist feeds
+
+
+---
+#TrendingTopics Intent   trending topics and news articles
+
+type: intent
+name: Finance_News_Trending
+slots:
+  - name: stockname
+    entity: stockname
+  - name: numberofdays
+    entity: numberofdays
+utterances:
+  - What are the recent trending topics for the past [numberofdays](4) days?
+  - What are the most mentioned topics on social media
+  - What are the trending topics for [stockname](Apple)
+  - What are the popular topics for [stockname](TSLA)
+  - What are the popular topics for [stockname](Telsa)
+  - popular topics on social media for the past [numberofdays](4) days
+  - trending topics on social media
+  - hot topics on social media for the past [numberofdays](4) days
+  - trending topics for the past [numberofdays](4) days
+  - hot topics
+  - recent topics on social media
+  - what are people talking about?
+  - social media topics
+  - hot social media topics
+  - what is on the social media for the past [numberofdays](4) days
+  - topics and trends on social media
+  - hot topics online for the past [numberofdays](4) days
+  - what are people on social media talking about?
+  - topics that are affecting the market
+  - market talks for the past [numberofdays](4) days
+  - social media insights
+  - stocktwits trending topics
+  - social media trending topics for the past [numberofdays](4) days
+  - market trending
+  - market trending topics
+  - what are the market talking about for the past [numberofdays](4) days?
+  - talks of the town
+  - hottest topic in town for the past [numberofdays](4) days
+
+
+---
+#Whatcanido  Intent  (Help Function)
+type: intent
+name: Finance_General_Whatcanido
+utterances:
+  - What does this bot do?
+  - Help
+  - What does this chatbot do?
+  - Guide me through what you can do
+  - What should i do?
+  - What can this chatbot do?
+  - How can you help me?
+  - What do you do?
+  - What can you do for me?
+  - Guide me
+
+---
+
+type: intent
+name: Finance_General_CurrentPrice
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - What is the current price for [stockname](Apple)?
+  - now price for [stockname](Apple)
+  - Can I have the price for [stockname](Apple)?
+  - May I get the current price for [stockname](Apple)?
+  - Get me the price for [stockname](Apple)
+  - Get me the current price for [stockname](Apple)
+  - Price of [stockname](Apple)
+  - '[stockname](Apple) price'
+  - Current price for [stockname](Apple)
+  - Last price for [stockname](Apple)
+
+
+---
+#AddWatchList Intent  add to my watchlist
+
+type: intent
+name: Finance_WatchlistE_Add
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - Add [stockname](AAPL) to my watchlist
+  - Add [stockname](TSLA) to my watchlist
+  - Please add [stockname](Apple) to my watchlist
+  - Please add [stockname](TSLA) to my watchlist
+  - I want to add [stockname](TSLA) to my watchlist
+  - '[stockname](TSLA) to my stocklist'
+  - Add to my watchlist
+  - Include in my watchlist
+  - Include [stockname](AAPL) in my watchlist
+  - Please include to my watchlist
+  - I want [stockname](AAPL) in my watchlist
+
+---
+#DropWatchList Intent  delete from my watchlist
+
+type: intent
+name: Finance_WatchlistE_Drop
+slots:
+  - name: stockname
+    entity: stockname
+utterances:
+  - Delete [stockname](AAPL) from my watchlist
+  - Remove [stockname](TSLA) from my watchlist
+  - Please delete [stockname](Apple) from my watchlist
+  - Please remove [stockname](TSLA) from my watchlist
+  - I want to delete [stockname](TSLA) from my watchlist
+  - delist [stockname](TSLA)
+  - delete [stockname](TSLA)
+  - remove [stockname](TSLA)
+  - delist [stockname](TSLA) from my watchlist
+  - pop [stockname](TSLA) out of my watchlist
+  - get [stockname](TSLA) out of my watchlist
+  - i dont want [stockname](TSLA) in my watchlist
+  - i do not want [stockname](TSLA) in my watchlist
+  - discard [stockname](TSLA)
+
+---
+#ClearWatchList Intent  Clear my watchlist
+
+type: intent
+name: Finance_WatchlistE_Clear
+
+utterances:
+  - Clear my watchlist
+  - Remove all from my watchlist
+  - Remove all stocks from my watchlist
+  - New watchlist
+  - Discard all from my watchlist
+  - delete all from my watchlist
+  - clear all stocks from my watchlist
+  - remove all stocks
+  - clear all stocks
+  - empty my watchlist
+
+
