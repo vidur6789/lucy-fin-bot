@@ -97,7 +97,8 @@ def getreply(update, context):
         result = reformatting("".join("date changed to "+context.user_data["DATE"]), 0, 0)
     else:
         intent, pred_score = intentdetection(utterance)
-        if pred_score <= 0.2 :
+        # confidence threshold
+        if pred_score <= 0.6 :
 
             method_to_call = fallback()
             result = reformatting("".join(method_to_call), intent, pred_score)
@@ -112,7 +113,7 @@ def getreply(update, context):
                     if intent[intent.index('_')+1:intent.index('_')+1+intent[intent.index('_')+1:].index('_')] == 'slots':
                         if user_data["PI"] != "":
                             print("Past Context route to " + user_data["PI"])
-                            method_to_call = getattr(Finance, user_data["PI"])(utterance)
+                            method_to_call = getattr(Finance, user_data["PI"])(utterance, context)
                             result = reformatting("".join(method_to_call), intent, pred_score)
                         else:
                             reply = "What do you want to know about " + utterance + "?"
@@ -122,7 +123,7 @@ def getreply(update, context):
                     else:
                         try:
                             user_data["PI"] = intent
-                            method_to_call = getattr(Finance, intent)(utterance)
+                            method_to_call = getattr(Finance, intent)(utterance, context)
                             print("new intent " + intent)
                             result = reformatting("".join(method_to_call), intent, pred_score)
                         except:

@@ -8,23 +8,28 @@ from datetime import date
 import math
 import numpy as np
 
-TODAY = date(2020,1,13)
+"""
+Date (String)
+-----
+Dateforintent = context.user_data['DATE']
 
-def Finance_WatchlistE_Clear(utterance):
+"""
+
+def Finance_WatchlistE_Clear(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	return random.choice(replies)
 
 
-def Finance_WatchlistE_Drop(utterance):
+def Finance_WatchlistE_Drop(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)	
 	return random.choice(replies)
 
 
-def Finance_WatchlistE_Add(utterance):
+def Finance_WatchlistE_Add(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
@@ -32,7 +37,7 @@ def Finance_WatchlistE_Add(utterance):
 
 
 
-def Finance_General_CurrentPrice(utterance):
+def Finance_General_CurrentPrice(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
@@ -40,14 +45,14 @@ def Finance_General_CurrentPrice(utterance):
 
 
 
-def Finance_General_Whatcanido(utterance):
+def Finance_General_Whatcanido(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	return random.choice(replies)
 
 
-def Finance_News_Trending(utterance):
+def Finance_News_Trending(utterance, context):
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	print("stockname : ", slots.get('stockname'))
@@ -63,14 +68,14 @@ def Finance_News_Trending(utterance):
 		print(reply)	
 	return reply
 
-def Finance_News_Watchlist(utterance):
+def Finance_News_Watchlist(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	return random.choice(replies)
 
 
-def Finance_News_Today(utterance):
+def Finance_News_Today(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
@@ -79,7 +84,7 @@ def Finance_News_Today(utterance):
 	return random.choice(replies)
 
 
-def Finance_News_Stock(utterance):
+def Finance_News_Stock(utterance, context):
 	print(settings.store)
 	countlength = len(utterance.split())
 	if countlength == 1:
@@ -99,7 +104,7 @@ def Finance_News_Stock(utterance):
 	return (reply)
 
 
-def Finance_Predictions_Sentiments_SingleStock(utterance):
+def Finance_Predictions_Sentiments_SingleStock(utterance, context):
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	if not slots or not slots['stockname']:
@@ -116,13 +121,13 @@ def Finance_Predictions_Sentiments_SingleStock(utterance):
 				   f'Overall sentiment for {stock_slot} is currently {sentiment_label}']
 		return random.choice(replies)
 
-def Finance_Predictions_Sentiments_Watchlist(utterance):
+def Finance_Predictions_Sentiments_Watchlist(utterance, context):
 	replies = ["this is my reply"]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	return random.choice(replies)
 
-def Finance_Predictions_Price_SingleStcok(utterance):
+def Finance_Predictions_Price_SingleStcok(utterance, context):
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 
@@ -147,7 +152,7 @@ def Finance_Predictions_Price_SingleStcok(utterance):
 
 		return random.choice(replies)
 
-def Finance_Predictions_Price_Bearish(utterance):
+def Finance_Predictions_Price_Bearish(utterance, context):
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	df_subset = predictor.get_values(cols=['bearish_score_mean', 'ticker'], rdate=TODAY)
@@ -158,7 +163,7 @@ def Finance_Predictions_Price_Bearish(utterance):
 			   f'{symbols_str} are the most bearish stocks in the market currently']
 	return random.choice(replies)
 
-def Finance_Predictions_Price_Bullish(utterance):
+def Finance_Predictions_Price_Bullish(utterance, context):
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	df_subset = predictor.get_values(cols=['bullish_score_mean', 'ticker'], rdate=TODAY)
