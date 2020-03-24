@@ -23,8 +23,8 @@ import Training
 from Training.attentiontraining import Utterances, Labels
 
 def attentionIntentDetection(user_utterance):
-
     device = torch.device("cpu")
+    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     MAX_LENGTH = 20
     SOS_token = 0
     EOS_token = 1
@@ -113,11 +113,11 @@ def attentionIntentDetection(user_utterance):
     
         def initHidden(self):
             return torch.zeros(1, 1, self.hidden_size, device=device)
-        
-    hidden_size = 256
-    encoder2 = EncoderRNN(701, hidden_size).to(device)
-    attn_decoder2= AttnDecoderRNN(hidden_size, 102, dropout_p=0.1).to(device)
     checkpoint = torch.load("models\\model.hd5")
+    hidden_size = 256
+    encoder2 = EncoderRNN(len(checkpoint['encoder']['embedding.weight']), hidden_size).to(device)
+    attn_decoder2= AttnDecoderRNN(hidden_size, len(checkpoint['decoder']['out.weight']), dropout_p=0.1).to(device)
+    
     encoder2.load_state_dict(checkpoint['encoder'])
     attn_decoder2.load_state_dict(checkpoint['decoder'])
     
@@ -196,6 +196,7 @@ def attentionIntentDetection(user_utterance):
         target_tensor = tensorFromLabel(pair[1])
         return (input_tensor, target_tensor)
     
+    user_utterance = re.sub(r'[^\w]', ' ', user_utterance)
     output = [i for i in evaluateAndShowAttention(user_utterance)]
     prediction, score = intent[int(output[0][0])], float(output[1])
     prediction = prediction.replace("-","_")

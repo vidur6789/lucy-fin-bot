@@ -10,7 +10,7 @@ import logging
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import utils.utterance as utterance
-from Training import training
+from Training import training, attentiontraining
 from Training.attentiontraining import Utterances, Labels
 
 
@@ -42,6 +42,7 @@ def changedate(update, context):
                              , parse_mode=telegram.ParseMode.HTML)
 if __name__ == '__main__':
     #training.train()
+    #attentiontraining.train()
     try:
         with open('z.token key.txt', 'r') as file:
             TokenKey = file.read().replace('\n', '')

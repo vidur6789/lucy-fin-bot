@@ -10,12 +10,6 @@ import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
 
-#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
-SOS_token = 0
-EOS_token = 1
-
-import pickle
 class Utterances:
     def __init__(self, name):
         self.name = name
@@ -49,10 +43,19 @@ class Labels:
             self.label2index[label] = self.n_labels
             self.index2label[self.n_labels] = label
             self.n_labels += 1
-
-
+    
 
 def train():
+    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
+    SOS_token = 0
+    EOS_token = 1
+    
+    import pickle
+
+    
+    
+
     def unicodeToAscii(s):
         return ''.join(
             c for c in unicodedata.normalize('NFD', s)
@@ -364,7 +367,7 @@ def train():
     encoder1 = EncoderRNN(utterance.n_words, hidden_size).to(device)
     attn_decoder1 = AttnDecoderRNN(hidden_size, label.n_labels, dropout_p=0.1).to(device)
     
-    trainIters(encoder1, attn_decoder1, 50000, print_every=5000)
+    trainIters(encoder1, attn_decoder1, 75000, print_every=5000)
     
     evaluateRandomly(encoder1, attn_decoder1)
     
