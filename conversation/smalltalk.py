@@ -1,3 +1,10 @@
+"""
+Created on Wed Mar 18 09:25:26 2020
+
+@author: Donal
+"""
+
+
 import random
 
 def smalltalk_agent_acquaintance():

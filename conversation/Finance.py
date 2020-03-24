@@ -1,3 +1,9 @@
+"""
+Created on Wed Mar 18 09:25:26 2020
+
+@author: Donal
+"""
+
 import random
 from utils.slots import getslots as slotsdetection
 from GetStockNews import GetTrendingNews, GetStockNews

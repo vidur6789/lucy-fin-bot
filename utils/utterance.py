@@ -29,6 +29,7 @@ from sklearn import metrics
 from sklearn.preprocessing import LabelBinarizer
 from conversation import smalltalk, fallback, Finance
 from utils.intent import intentdetection
+from utils.attentionIntent import attentionIntentDetection
 import settings.store
 
 import pycrfsuite
@@ -82,6 +83,12 @@ def reformatting (Reply, Intent, Confidence):
 
 
 def getreply(update, context):
+    use_attention = True
+    if use_attention: 
+        intent_detection = attentionIntentDetection
+    else:
+        intent_detection = intentdetection
+    
     settings.store = context
     utterance = update.message.text
     user_data = context.user_data
@@ -96,11 +103,11 @@ def getreply(update, context):
 
         result = reformatting("".join("date changed to "+context.user_data["DATE"]), 0, 0)
     else:
-        intent, pred_score = intentdetection(utterance)
+        intent, pred_score = intent_detection(utterance)
         # confidence threshold
-        if pred_score <= 0.6 :
+        if pred_score <= 0.5 :
 
-            method_to_call = fallback()
+            method_to_call = getattr(fallback, "fallback")()
             result = reformatting("".join(method_to_call), intent, pred_score)
 
         else:
@@ -128,7 +135,7 @@ def getreply(update, context):
                             result = reformatting("".join(method_to_call), intent, pred_score)
                         except:
                             method_to_call = getattr(fallback, "fallback")()
-                            result = reformatting("".join(method_to_call))
+                            result = reformatting("".join(method_to_call), "fallback", 0)
     return result
     
 

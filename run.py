@@ -11,8 +11,11 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 import utils.utterance as utterance
 from Training import training
+from Training.attentiontraining import Utterances, Labels
 
 
+Utterances("utterance")
+Labels("label")
 # Command Handler
 def start(update, context):
     """Send a message when the command /start is issued."""
@@ -38,7 +41,7 @@ def changedate(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="which date?"
                              , parse_mode=telegram.ParseMode.HTML)
 if __name__ == '__main__':
-    training.train()
+    #training.train()
     try:
         with open('z.token key.txt', 'r') as file:
             TokenKey = file.read().replace('\n', '')
