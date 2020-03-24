@@ -1,6 +1,6 @@
 import random
 from utils.slots import getslots as slotsdetection
-from GetStockNews import GetTrendingNews, GetStockNews
+from GetStockNews import GetTrendingNews, GetStockNews, GetTodayNews
 from SlotsFill import slotfill
 import settings.store
 from GetStockPredictions import stock_predictions as predictor
@@ -65,7 +65,6 @@ def Finance_News_Trending(utterance, context):
 		reply   = random.choice(replies)
 		reply.append("\n\n")
 		reply.append(results)
-		print(reply)	
 	return reply
 
 def Finance_News_Watchlist(utterance, context):
@@ -76,12 +75,19 @@ def Finance_News_Watchlist(utterance, context):
 
 
 def Finance_News_Today(utterance, context):
-	replies = ["this is my reply"]
-	slots = slotsdetection(utterance)
-	print("slot : ", slots)
-	print (slots)
+	today = context.user_data['DATE']
+	print("Date : ", today)
 
-	return random.choice(replies)
+	if today == "":
+		reply = slotfill.todayNews()
+	else:
+		results = GetTodayNews.GetAnswer(today)
+		replies = [["The top 3 latest news are :"], ["The following are top 3 today news :"], ["Found top 3 latest news :"], ["Are you interested in the following top 3 latest news?"]]
+		reply   = random.choice(replies)[0]
+		reply += "\n\n"
+		reply += results
+		reply = "".join(reply)
+	return reply
 
 
 def Finance_News_Stock(utterance, context):

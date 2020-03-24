@@ -27,3 +27,11 @@ def stocksymb():
              ['Which stock are you refering to?'],
              ['What stock are you refering to?']]
     return random.choice(replies)
+
+def todayNews():
+    replies = [['Are you looking for today news?'],
+             ['Are you searching for latest news?'],
+             ['Latest news ?'],
+             ['Today news']]
+    return random.choice(replies)
+    
