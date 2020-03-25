@@ -104,6 +104,7 @@ def getreply(update, context):
         result = reformatting("".join("date changed to "+context.user_data["DATE"]), 0, 0)
     else:
         intent, pred_score = intent_detection(utterance)
+        print(f'Intent :  {intent}  Pred_score : {pred_score} ')
         # confidence threshold
         if pred_score <= 0.5 :
 
@@ -118,11 +119,13 @@ def getreply(update, context):
 
             elif intent[:intent.index('_')] == 'Finance':
                     if intent[intent.index('_')+1:intent.index('_')+1+intent[intent.index('_')+1:].index('_')] == 'slots':
+                        #handles no Past Intent with past slots
                         if user_data["PI"] != "":
                             print("Past Context route to " + user_data["PI"])
                             method_to_call = getattr(Finance, user_data["PI"])(utterance, context)
                             result = reformatting("".join(method_to_call), intent, pred_score)
                         else:
+                            #handles Past Intent with past slots
                             reply = "What do you want to know about " + utterance + "?"
                             user_data["ticker"] = utterance
                             print("slots: " + user_data["ticker"])
