@@ -117,6 +117,11 @@ def Finance_News_Stock(utterance, context):
 
 
 def Finance_Predictions_Sentiments_SingleStock(utterance, context):
+	if context and 'DATE' in context:
+		today_date = context.user_data["DATE"]
+		print(f'today:{today_date}')
+	else:
+		return 'No date set in context. Please use /date command to set date'
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	if not slots or not slots['stockname']:
@@ -124,8 +129,8 @@ def Finance_Predictions_Sentiments_SingleStock(utterance, context):
 	else:
 		stock_slot = slots['stockname']
 		cols = ['bearish_score_mean', 'bullish_score_mean']
-		sentiments = predictor.get_values(cols=cols, ticker=stock_slot, rdate=TODAY).values.flatten().tolist()
-		sentiment_format = lambda r: str(math.ceil(r * 10000) / 100.0) + '%'
+		sentiments = predictor.get_values(cols=cols, ticker=stock_slot, rdate=today_date).values.flatten().tolist()
+		def sentiment_format(r): return str(math.ceil(r * 10000) / 100.0) + '%'
 		bear_sent, bull_sent = [sentiment_format(s)for s in sentiments]
 		sentiment_label = 'Bullish' if np.argmax(sentiments) else 'Bearish'
 		replies = [f'The sentiment for {stock_slot} is {bear_sent} bearish and {bull_sent} bullish',
@@ -140,20 +145,25 @@ def Finance_Predictions_Sentiments_Watchlist(utterance, context):
 	return random.choice(replies)
 
 def Finance_Predictions_Price_SingleStcok(utterance, context):
+	if context and 'DATE' in context:
+		today_date = context.user_data["DATE"]
+		print(f'today:{today_date}')
+	else:
+		return 'No date set in context. Please use /date command to set date'
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 
-	if not slots or not slots['stockname']:
+	if not slots or 'stockname' not in slots:
 		return slotfill.stockname()
 	else:
-		period_slot = None
+		period_slot = slots['numberofdays'] if slots and 'numberofdays' in slots else None
 		# period_slot = random.choice([1, 3, 5, None])
-		stock_slot = slots['	stockname']
+		stock_slot = slots['stockname']
 		col_dict = {1: '1_day_return',
 					3: '3_day_return',
 					5: '5_day_return'}
 		cols = [col_dict[period_slot]] if period_slot else list(col_dict.values())
-		return_list = predictor.get_values(cols=cols, ticker=stock_slot, rdate=TODAY).values.flatten().tolist()
+		return_list = predictor.get_values(cols=cols, ticker=stock_slot, rdate=today_date).values.flatten().tolist()
 		col_names_str = ", ".join([c[:-6].replace('_', ' ').rstrip() for c in cols])
 		return_format = lambda r: str(math.ceil(r * 100) / 100.0) + '%'
 		returns_str = ', '.join([return_format(r) for r in return_list])
@@ -165,9 +175,14 @@ def Finance_Predictions_Price_SingleStcok(utterance, context):
 		return random.choice(replies)
 
 def Finance_Predictions_Price_Bearish(utterance, context):
+	if context and 'DATE' in context:
+		today_date = context.user_data["DATE"]
+		print(f'today:{today_date}')
+	else:
+		return 'No date set in context. Please use /date command to set date'
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
-	df_subset = predictor.get_values(cols=['bearish_score_mean', 'ticker'], rdate=TODAY)
+	df_subset = predictor.get_values(cols=['bearish_score_mean', 'ticker'], rdate=today_date)
 	symbols = df_subset.sort_values(by='bearish_score_mean', ascending=False)['ticker'][:3].to_list()
 	symbols_str = ", ".join(symbols)
 	replies = [f'The most bearish stocks are {symbols_str}',
@@ -176,9 +191,14 @@ def Finance_Predictions_Price_Bearish(utterance, context):
 	return random.choice(replies)
 
 def Finance_Predictions_Price_Bullish(utterance, context):
+	if context and 'DATE' in context:
+		today_date = context.user_data["DATE"]
+		print(f'today:{today_date}')
+	else:
+		return 'No date set in context. Please use /date command to set date'
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
-	df_subset = predictor.get_values(cols=['bullish_score_mean', 'ticker'], rdate=TODAY)
+	df_subset = predictor.get_values(cols=['bullish_score_mean', 'ticker'], rdate=today_date)
 	symbols = df_subset.sort_values(by='bullish_score_mean', ascending=False)['ticker'][:3].to_list()
 	symbols_str = ", ".join(symbols)
 	replies = [f'The most bullish stocks are {symbols_str}',
