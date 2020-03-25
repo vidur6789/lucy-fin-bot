@@ -13,6 +13,7 @@ from GetStockPredictions import stock_predictions as predictor
 from datetime import date
 import math
 import numpy as np
+import datetime
 
 """
 Date (String)
@@ -117,8 +118,8 @@ def Finance_News_Stock(utterance, context):
 
 
 def Finance_Predictions_Sentiments_SingleStock(utterance, context):
-	if context and 'DATE' in context:
-		today_date = context.user_data["DATE"]
+	if context and 'DATE' in context.user_data:
+		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -145,8 +146,8 @@ def Finance_Predictions_Sentiments_Watchlist(utterance, context):
 	return random.choice(replies)
 
 def Finance_Predictions_Price_SingleStcok(utterance, context):
-	if context and 'DATE' in context:
-		today_date = context.user_data["DATE"]
+	if context and 'DATE' in context.user_data:
+		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -175,8 +176,8 @@ def Finance_Predictions_Price_SingleStcok(utterance, context):
 		return random.choice(replies)
 
 def Finance_Predictions_Price_Bearish(utterance, context):
-	if context and 'DATE' in context:
-		today_date = context.user_data["DATE"]
+	if context and 'DATE' in context.user_data:
+		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -191,8 +192,8 @@ def Finance_Predictions_Price_Bearish(utterance, context):
 	return random.choice(replies)
 
 def Finance_Predictions_Price_Bullish(utterance, context):
-	if context and 'DATE' in context:
-		today_date = context.user_data["DATE"]
+	if context and 'DATE' in context.user_data:
+		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
