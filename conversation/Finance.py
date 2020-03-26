@@ -120,7 +120,11 @@ def Finance_News_Stock(utterance, context):
 
 def Finance_Predictions_Sentiments_SingleStock(utterance, context):
 	if context and 'DATE' in context.user_data:
-		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
+		try:
+			today_date = datetime.datetime.strptime(context.user_data["DATE"], '%m/%d/%Y').date()
+		except Exception as e:
+			print(e)
+			return 'Please enter date in format mm/dd/yyyy eg: 01/13/2020'
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -148,7 +152,11 @@ def Finance_Predictions_Sentiments_Watchlist(utterance, context):
 
 def Finance_Predictions_Price_SingleStcok(utterance, context):
 	if context and 'DATE' in context.user_data:
-		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
+		try:
+			today_date = datetime.datetime.strptime(context.user_data["DATE"], '%m/%d/%Y').date()
+		except Exception as e:
+			print(e)
+			return 'Please enter date in format mm/dd/yyyy eg: 01/13/2020'
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -178,7 +186,11 @@ def Finance_Predictions_Price_SingleStcok(utterance, context):
 
 def Finance_Predictions_Price_Bearish(utterance, context):
 	if context and 'DATE' in context.user_data:
-		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
+		try:
+			today_date = datetime.datetime.strptime(context.user_data["DATE"], '%m/%d/%Y').date()
+		except Exception as e:
+			print(e)
+			return 'Please enter date in format mm/dd/yyyy eg: 01/13/2020'
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
@@ -194,7 +206,11 @@ def Finance_Predictions_Price_Bearish(utterance, context):
 
 def Finance_Predictions_Price_Bullish(utterance, context):
 	if context and 'DATE' in context.user_data:
-		today_date = datetime.datetime.strptime(context.user_data["DATE"], '%d/%m/%Y').date()
+		try:
+			today_date = datetime.datetime.strptime(context.user_data["DATE"], '%m/%d/%Y').date()
+		except Exception as e:
+			print(e)
+			return 'Please enter date in format mm/dd/yyyy eg: 01/13/2020'
 		print(f'today:{today_date}')
 	else:
 		return 'No date set in context. Please use /date command to set date'
