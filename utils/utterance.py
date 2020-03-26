@@ -105,7 +105,7 @@ def getreply(update, context):
     else:
         intent, pred_score = intent_detection(utterance)
         # confidence threshold
-        if pred_score <= 0.5 :
+        if pred_score <= 0.2 :
 
             method_to_call = getattr(fallback, "fallback")()
             result = reformatting("".join(method_to_call), intent, pred_score)

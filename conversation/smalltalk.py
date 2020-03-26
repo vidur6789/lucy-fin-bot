@@ -167,10 +167,6 @@ def smalltalk_confirmation_no():
 	replies = [["Understood."], ["Okay."], ["I see."], ["I understand."], ["Okay then."]]
 	return random.choice(replies)
 	
-def smalltalk_confirmation_yes():
-	replies = [["Great!"], ["All right!"], ["Good!"]]
-	return random.choice(replies)
-	
 def smalltalk_dialog_hold_on():
 	replies = [["I can wait."], ["I'll be waiting."], ["Okay. I'm here."]]
 	return random.choice(replies)

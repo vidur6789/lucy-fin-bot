@@ -785,6 +785,92 @@ utterances:
 
 ---
 type: intent
+name: smalltalk_confirmation_yes
+utterances:
+  - do it
+  - sure
+  - yes thank you
+  - that's correct
+  - exactly
+  - I guess
+  - okey
+  - absolutely
+  - yeah
+  - yes I agree
+  - yes you may
+  - I agree
+  - ya
+  - yep
+  - I think so
+  - yeah that's right
+  - okay
+  - all right
+  - please do
+  - yeah exactly
+  - ok yes
+  - yap
+  - okay sounds good
+  - this is correct
+  - okay then
+  - k
+  - yeh
+  - why not
+  - yes definitely
+  - alrighty
+  - yes that's fine
+  - ok go ahead
+  - sure is
+  - yes I would like to
+  - confirm
+  - okay that's fine
+  - yeah right
+  - I do
+  - sure thing
+  - "yes"
+  - affirmative
+  - yes right
+  - yeah I'm sure
+  - go for it
+  - yeah go ahead
+  - I don't mind
+  - that s okay
+  - sounds good
+  - yes indeed
+  - right
+  - okie dokie
+  - yea
+  - yes correct
+  - go ahead
+  - looks good
+  - correct
+  - certainly
+  - ok
+  - oh yes
+  - yes it is
+  - obviously
+  - ok sure
+  - definitely
+  - confirmed
+  - ok you can
+  - yes of course
+  - ye
+  - yes this is correct
+  - of course
+  - nevermind its okay
+  - yeah of course
+  - of course why not
+  - sure why not
+  - ok thank you
+  - yes it is correct
+  - yeah sure
+  - yes I do
+  - yes for sure
+  - that is ok
+  - yes sure
+  - yup
+
+---
+type: intent
 name: smalltalk_confirmation_no
 utterances:
   - not needed
@@ -3633,9 +3719,7 @@ utterances:
 type: intent
 name: Finance_General_Whatcanido
 utterances:
-  - What can this chatbot do
-  - What does this chatbot do
-  - What can this chatbot do
+  - What can this bot do
   - What does this chatbot do
 
 ---

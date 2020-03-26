@@ -1,7 +1,7 @@
 Installation
 -------------
 1) Creating Environment
-	conda create -n venv python=3.7 scikit-learn pandas numpy pickle nltk itertools spacy pydot
+	conda create -n venv python=3.7 scikit-learn pandas numpy pickle nltk itertools spacy pydot pytorch
 2) Activating Environment
 	conda activate venv
 3) Installing other packages

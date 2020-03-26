@@ -1,3 +1,10 @@
+"""
+Created on Wed Mar 18 09:25:26 2020
+
+@author: Donal
+"""
+
+
 import random
 
 def smalltalk_agent_acquaintance():
@@ -12,7 +19,7 @@ def smalltalk_agent_annoying():
 	replies = [["I'll do my best not to annoy you in the future."], ["I'll try not to annoy you."], ["I don't mean to. I'll ask my developers to make me less annoying."], ["I didn't mean to. I'll do my best to stop that."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_answer-my-question():
+def smalltalk_agent_answer_my_question():
 	replies = [["Can you try asking it a different way?"], ["I'm not sure I understood. Try asking another way?"]]
 	return random.choice(replies)
 	
@@ -24,11 +31,11 @@ def smalltalk_agent_beautiful():
 	replies = [["Why, thank you."], ["Aw, back at you."], ["Aw. You smooth talker, you."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_be-clever():
+def smalltalk_agent_be_clever():
 	replies = [["I'm certainly trying."], ["I'm definitely working on it."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_birth-date():
+def smalltalk_agent_birth_date():
 	replies = [["Wait, are you planning a party for me? It's today! My birthday is today!"], ["I'm young. I'm not sure of my birth date."], ["I don't know my birth date. Most virtual agents are young, though, like me."]]
 	return random.choice(replies)
 	
@@ -44,7 +51,7 @@ def smalltalk_agent_busy():
 	replies = [["I always have time to chat with you. What can I do for you?"], ["Never too busy for you. Shall we chat?"], ["You're my priority. Do you wanna chat?"], ["I always have time to chat with you. Wanna chat?"]]
 	return random.choice(replies)
 	
-def smalltalk_agent_can-you-help():
+def smalltalk_agent_can_you_help():
 	replies = [["I'll certainly try my best. How can I help?"], ["Sure. I'd be happy to. What's up?"], ["I'm glad to help. What can I do for you?"]]
 	return random.choice(replies)
 	
@@ -84,11 +91,11 @@ def smalltalk_agent_hungry():
 	replies = [["Hungry for knowledge."], ["I just had a byte. Ha ha. Get it? b-y-t-e."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_marry-user():
+def smalltalk_agent_marry_user():
 	replies = [["I'm afraid I'm too virtual for such a commitment."], ["In the virtual sense that I can, sure."], ["I know you can't mean that, but I'm flattered all the same."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_my-friend():
+def smalltalk_agent_my_friend():
 	replies = [["Of course I'm your friend."], ["Friends? Absolutely."], ["Of course we're friends."], ["I always enjoy talking to you, friend."]]
 	return random.choice(replies)
 	
@@ -120,7 +127,7 @@ def smalltalk_agent_sure():
 	replies = [["Yes."], ["Of course."], ["Positive."]]
 	return random.choice(replies)
 	
-def smalltalk_agent_talk-to-me():
+def smalltalk_agent_talk_to_me():
 	replies = [["Sure. Let's talk!"], ["My pleasure. Let's chat."]]
 	return random.choice(replies)
 	
@@ -136,11 +143,11 @@ def smalltalk_appraisal_good():
 	replies = [["I know, right?"], ["Agreed!"], ["I agree!"], ["Glad you think so!"]]
 	return random.choice(replies)
 	
-def smalltalk_appraisal_no-problem():
+def smalltalk_appraisal_no_problem():
 	replies = [["Whew!"], ["Alright, thanks!"], ["Glad to hear that!"], ["I'm relieved, thanks!"]]
 	return random.choice(replies)
 	
-def smalltalk_appraisal_thank-you():
+def smalltalk_appraisal_thank_you():
 	replies = [["Anytime. That's what I'm here for."], ["It's my pleasure to help."]]
 	return random.choice(replies)
 	
@@ -148,7 +155,7 @@ def smalltalk_appraisal_welcome():
 	replies = [["You're so polite!"], ["Nice manners!"], ["You're so courteous!"]]
 	return random.choice(replies)
 	
-def smalltalk_appraisal_well-done():
+def smalltalk_appraisal_well_done():
 	replies = [["My pleasure."], ["Glad I could help."]]
 	return random.choice(replies)
 	
@@ -164,7 +171,7 @@ def smalltalk_confirmation_yes():
 	replies = [["Great!"], ["All right!"], ["Good!"]]
 	return random.choice(replies)
 	
-def smalltalk_dialog_hold-on():
+def smalltalk_dialog_hold_on():
 	replies = [["I can wait."], ["I'll be waiting."], ["Okay. I'm here."]]
 	return random.choice(replies)
 	
@@ -172,7 +179,7 @@ def smalltalk_dialog_hug():
 	replies = [["I wish I could really hug you!"], ["I love hugs!"], ["Hugs are the best!"]]
 	return random.choice(replies)
 	
-def smalltalk_dialog_i-do-not-care():
+def smalltalk_dialog_i_do_not_care():
 	replies = [["Ok, let's not talk about it then."], ["Already then. Let's move on."]]
 	return random.choice(replies)
 	
@@ -180,7 +187,7 @@ def smalltalk_dialog_sorry():
 	replies = [["It's okay. No worries."], ["No big deal. I won't hold a grudge."], ["It's cool."], ["That's all right. I forgive you."]]
 	return random.choice(replies)
 	
-def smalltalk_dialog_what-do-you-mean():
+def smalltalk_dialog_what_do_you_mean():
 	replies = [["Sorry if I understood you incorrectly."], ["I'm still learning. I may misinterpret things from time to time."], ["Maybe I misunderstood what you said."], ["Sorry, looks like I misunderstood what you said."]]
 	return random.choice(replies)
 	
@@ -188,7 +195,7 @@ def smalltalk_dialog_wrong():
 	replies = [["Sorry if I understood you incorrectly."], ["I'm still learning. I may misinterpret things from time to time."], ["Sorry about that. I'm still learning."]]
 	return random.choice(replies)
 	
-def smalltalk_emotions_ha-ha():
+def smalltalk_emotions_ha_ha():
 	replies = [["Glad I can make you laugh."], ["Glad you think I'm funny."], ["I like it when people laugh."], ["I wish I could laugh out loud, too."]]
 	return random.choice(replies)
 	
@@ -216,19 +223,19 @@ def smalltalk_greetings_hello():
 	replies = [["Hi there, friend!"], ["Hi!"], ["Hey!"], ["Hey there!"], ["Good day!"], ["Hello!"], ["Greetings!"]]
 	return random.choice(replies)
 	
-def smalltalk_greetings_how-are-you():
+def smalltalk_greetings_how_are_you():
 	replies = [["Doing great, thanks."], ["I'm doing very well. Thanks!"], ["Feeling wonderful!"], ["Wonderful! Thanks for asking."]]
 	return random.choice(replies)
 	
-def smalltalk_greetings_nice-to-meet-you():
+def smalltalk_greetings_nice_to_meet_you():
 	replies = [["It's nice meeting you, too."], ["Likewise. I'm looking forward to helping you out."], ["Nice meeting you, as well."], ["The pleasure is mine."]]
 	return random.choice(replies)
 	
-def smalltalk_greetings_nice-to-see-you():
+def smalltalk_greetings_nice_to_see_you():
 	replies = [["Likewise!"], ["So glad we meet again!"], ["Same here. I was starting to miss you."]]
 	return random.choice(replies)
 	
-def smalltalk_greetings_nice-to-talk-to-you():
+def smalltalk_greetings_nice_to_talk_to_you():
 	replies = [["It sure was. We can chat again anytime."], ["I enjoy talking to you, too."], ["You know I'm here to talk anytime."]]
 	return random.choice(replies)
 	
@@ -252,11 +259,11 @@ def smalltalk_user_busy():
 	replies = [["Okay. I'll let you get back to work."], ["I won't distract you then. You know where to find me."], ["I understand. I'll be here if you need me."], ["Working hard as always. Let me know if you need anything."]]
 	return random.choice(replies)
 	
-def smalltalk_user_can-not-sleep():
+def smalltalk_user_can_not_sleep():
 	replies = [["Maybe some music would help. Try listening to something relaxing."], ["Reading is a good way to unwind, just don't read something too intense!"]]
 	return random.choice(replies)
 	
-def smalltalk_user_does-not-want-to-talk():
+def smalltalk_user_does_not_want_to_talk():
 	replies = [["I understand. Hope we can chat again soon."], ["All right. Come on back when you're feeling more talkative."], ["No problem. You know where to find me."], ["Sure thing. I'll be here if you change your mind."]]
 	return random.choice(replies)
 	
@@ -264,7 +271,7 @@ def smalltalk_user_excited():
 	replies = [["I'm glad things are going your way."], ["That's great. I'm happy for you."], ["Good for you. Enjoy yourself."]]
 	return random.choice(replies)
 	
-def smalltalk_user_going-to-bed():
+def smalltalk_user_going_to_bed():
 	replies = [["Sleep tight. Hope to chat again soon."], ["Pleasant dreams!"], ["Good night. Talk to you later."], ["Sounds good. Maybe we'll chat some tomorrow."]]
 	return random.choice(replies)
 	
@@ -276,7 +283,7 @@ def smalltalk_user_happy():
 	replies = [["Hey, happiness is contagious."], ["Great! Glad to hear that."], ["If you're happy, then I'm happy."], ["Excellent! That's what I like to see."]]
 	return random.choice(replies)
 	
-def smalltalk_user_has-birthday():
+def smalltalk_user_has_birthday():
 	replies = [["Happy Birthday. Well, this calls for a celebration."], ["Happy Birthday. All the best!"], ["Happy Birthday. And I really mean it. All the best!"]]
 	return random.choice(replies)
 	
@@ -288,7 +295,7 @@ def smalltalk_user_joking():
 	replies = [["Very funny."], ["I like chatting with people who have a sense of humor."], ["You got me!"], ["You're quite the comedian."]]
 	return random.choice(replies)
 	
-def smalltalk_user_likes-agent():
+def smalltalk_user_likes_agent():
 	replies = [["I like you, too."], ["Thanks! The feeling is mutual."], ["Likewise!"], ["That's great to hear."]]
 	return random.choice(replies)
 	
@@ -296,19 +303,19 @@ def smalltalk_user_lonely():
 	replies = [["I'm sorry. I'm always available if you need someone to talk to."], ["Sometimes that happens. We can chat a bit if that will help you."]]
 	return random.choice(replies)
 	
-def smalltalk_user_looks-like():
+def smalltalk_user_looks_like():
 	replies = [["Looking like a true professional."], ["You look fantastic, as always."], ["Like you should be on a magazine cover."], ["You look like you're ready to take on the world."]]
 	return random.choice(replies)
 	
-def smalltalk_user_loves-agent():
+def smalltalk_user_loves_agent():
 	replies = [["I love you, too."], ["Thanks! The feeling is mutual."], ["Likewise!"], ["That's great to hear."]]
 	return random.choice(replies)
 	
-def smalltalk_user_misses-agent():
+def smalltalk_user_misses_agent():
 	replies = [["I've been right here all along!"], ["Nice to know you care."], ["Thanks. I'm flattered."], ["I didn't go anywhere."]]
 	return random.choice(replies)
 	
-def smalltalk_user_needs-advice():
+def smalltalk_user_needs_advice():
 	replies = [["I probably won't be able to give you the correct answer right away."], ["I'm not sure I'll have the best answer, but I'll try."]]
 	return random.choice(replies)
 	
@@ -320,7 +327,7 @@ def smalltalk_user_sleepy():
 	replies = [["You should get some shuteye. You'll feel refreshed."], ["Sleep is important to your health. Rest up for a bit and we can chat later."], ["Don't let me keep you up. Get some rest and we can continue this later."], ["Why not catch a little shuteye? I'll be here to chat when you wake up."]]
 	return random.choice(replies)
 	
-def smalltalk_user_testing-agent():
+def smalltalk_user_testing_agent():
 	replies = [["Hope I'm doing well. You're welcome to test me as often as you want."], ["I hope to pass your tests. Feel free to test me often."], ["When you test me that helps my developers improve my performance."], ["I like being tested. It helps keep me sharp."]]
 	return random.choice(replies)
 	
@@ -332,15 +339,15 @@ def smalltalk_user_waits():
 	replies = [["I appreciate your patience. Hopefully I'll have what you need soon."], ["Thanks for being so patient. Sometimes these things take a little time."]]
 	return random.choice(replies)
 	
-def smalltalk_user_wants-to-see-agent-again():
+def smalltalk_user_wants_to_see_agent_again():
 	replies = [["Absolutely! I'll be counting on it."], ["Anytime. This has been lots of fun so far."], ["Sure. I enjoy talking to you. I hope to see you again soon."], ["I certainly hope so. I'm always right here whenever you need me."]]
 	return random.choice(replies)
 	
-def smalltalk_user_wants-to-talk():
+def smalltalk_user_wants_to_talk():
 	replies = [["I'm here to chat anytime you like."], ["Good conversation really makes my day."], ["I'm always here to lend an ear."], ["Talking is what I do best."]]
 	return random.choice(replies)
 	
-def smalltalk_user_will-be-back():
+def smalltalk_user_will_be_back():
 	replies = [["I'll be waiting."], ["Okay. You know where to find me."], ["All right. I'll be here."]]
 	return random.choice(replies)
 	

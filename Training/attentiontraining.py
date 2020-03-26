@@ -434,6 +434,6 @@ def train():
     
     print(metrics.confusion_matrix(y_test, y_pred))
     print(np.mean(y_pred == y_test))
-    print(metrics.classification_report(y_test, y_pred, zero_division=1))
+    print(metrics.classification_report(y_test, y_pred))
 
 
