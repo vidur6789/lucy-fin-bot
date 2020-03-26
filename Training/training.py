@@ -163,7 +163,7 @@ def train():
     ## Training the First Layer
     
     trainX, trainY = zip(*[[j,i[1]] for i in trainlist for j in i[0]])
-    X_train, X_test, y_train, y_test = train_test_split(trainX,trainY, test_size=0.01, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(trainX,trainY, test_size=0.1, random_state=42)
     train_bigram_Kbest, test_bigram_Kbest = findkbest(X_train,X_test,'root')
     trysvm(train_bigram_Kbest, test_bigram_Kbest, y_train,  y_test, 'root', listlevelnames[0])  
     
@@ -183,7 +183,7 @@ def train():
                 name = i
                 training = [[j[1],j[2]] for j in labelzone if j[0] == name]
                 trainX, trainY = zip(*training)
-                X_train, X_test, y_train, y_test = train_test_split(trainX,trainY, test_size=0.01, random_state=42)
+                X_train, X_test, y_train, y_test = train_test_split(trainX,trainY, test_size=0.1, random_state=42)
                 lbl = []
                 dummy = [lbl.append(k) for k in trainY if k not in lbl]
                 train_bigram_Kbest, test_bigram_Kbest = findkbest(X_train,X_test,name)
