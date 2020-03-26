@@ -53,7 +53,8 @@ def Finance_General_CurrentPrice(utterance, context):
 
 
 def Finance_General_Whatcanido(utterance, context):
-	replies = ["this is my reply"]
+	replies = [["I can help you with Technology Stock price direction predictions and the stock news itself or any trending technology stock news or topics"],
+	           ["I can make sentiment predictions on Technology Stock price direction and retrieve stock news and trending topics"]]
 	slots = slotsdetection(utterance)
 	print("slot : ", slots)
 	return random.choice(replies)

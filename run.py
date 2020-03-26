@@ -41,8 +41,8 @@ def changedate(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="which date?"
                              , parse_mode=telegram.ParseMode.HTML)
 if __name__ == '__main__':
-    #training.train()
-    #attentiontraining.train()
+    training.train()
+    attentiontraining.train()
     try:
         with open('z.token key.txt', 'r') as file:
             TokenKey = file.read().replace('\n', '')
