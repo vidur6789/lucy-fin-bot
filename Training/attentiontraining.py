@@ -46,6 +46,7 @@ class Labels:
     
 
 def train():
+    print("Starting Utterence Training using Attention RNN")
     #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     device = torch.device("cpu")
     SOS_token = 0
