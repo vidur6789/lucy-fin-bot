@@ -21,6 +21,11 @@ Date (String)
 Dateforintent = context.user_data['DATE']
 
 """
+def Finance_General_Whatcanido(utterance, context):
+	replies = ["this is my reply"]
+	slots = slotsdetection(utterance)
+	print("slot : ", slots)
+	return random.choice(replies)
 
 def Finance_WatchlistE_Clear(utterance, context):
 	replies = ["this is my reply"]

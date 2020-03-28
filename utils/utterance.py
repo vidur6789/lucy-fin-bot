@@ -83,7 +83,7 @@ def reformatting (Reply, Intent, Confidence):
 
 
 def getreply(update, context):
-    use_attention = True
+    use_attention = False
     if use_attention: 
         intent_detection = attentionIntentDetection
     else:
