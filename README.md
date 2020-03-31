@@ -17,7 +17,7 @@ Installation
 
 Running the Bot
 ---------------
-1) Edit run.py. Change TokenKey = "<your token key>"
+1) Edit run.py. Change TokenKey = "your token key"
 2) Use Spyder to execute run.py
 
 
